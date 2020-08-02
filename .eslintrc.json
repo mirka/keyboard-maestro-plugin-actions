@@ -1,0 +1,42 @@
+{
+    "env": {
+        "browser": false,
+        "node": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "2018"
+    },
+    "rules": {
+        "comma-spacing": "error",
+        "indent": [
+            "error",
+            "tab"
+        ],
+        "key-spacing": [
+            "error",
+            { "mode": "strict" }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "no-console": "off",
+        "no-var": "error",
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "prefer-const": "error",
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Clean Plain Text with TextSoap</string>
+	<key>Script</key>
+	<string>default.scpt</string>
+	<key>Icon</key>
+	<string>icon.png</string>
+	<key>Title</key>
+	<string>Clean Plain Text with TextSoap</string>
+	<key>Results</key>
+	<string>Window|Briefly|Typing|Pasting|Variable|Clipboard</string>
+	<key>Parameters</key>
+	<array>
+		<dict>
+			<key>Label</key>
+			<string>Text</string>
+			<key>Type</key>
+			<string>TokenText</string>
+			<key>Default</key>
+			<string>%Variable%Variable Name%</string>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Cleaner</string>
+			<key>Type</key>
+			<string>TokenString</string>
+		</dict>
+	</array>
+</dict>
+</plist>

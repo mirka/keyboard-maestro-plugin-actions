@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Display BetterTouchTool HUD</string>
+
+	<key>Script</key>
+	<string>default.scpt</string>
+
+	<key>Icon</key>
+	<string>icon.png</string>
+
+	<key>Title</key>
+	<string>Display HUD “%Param%Title%” from BetterTouchTool</string>
+
+	<key>Results</key>
+	<string>None</string>
+
+	<key>Parameters</key>
+	<array>
+		<dict>
+			<key>Label</key>
+			<string>Title</string>
+			<key>Type</key>
+			<string>TokenString</string>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Detail</string>
+			<key>Type</key>
+			<string>TokenString</string>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Duration</string>
+			<key>Type</key>
+			<string>TokenString</string>
+			<key>Default</key>
+			<string>1.5</string>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Opacity</string>
+			<key>Type</key>
+			<string>PopupMenu</string>
+			<key>Menu</key>
+			<string>Default|Light|Transparent|Opaque</string>
+			<key>Default</key>
+			<string>Default</string>
+		</dict>
+	</array>
+</dict>
+</plist>

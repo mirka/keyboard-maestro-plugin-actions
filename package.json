@@ -1,0 +1,22 @@
+{
+  "name": "keyboard-maestro-plugin-actions",
+  "version": "1.0.0",
+  "description": "Plugin Actions for Keyboard Maestro",
+  "scripts": {
+    "build": "node ./dev/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirka/keyboard-maestro-plugin-actions.git"
+  },
+  "author": "Lena Morita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirka/keyboard-maestro-plugin-actions/issues"
+  },
+  "homepage": "https://github.com/mirka/keyboard-maestro-plugin-actions#readme",
+  "devDependencies": {
+    "jszip": "^3.5.0",
+    "plist": "^3.0.1"
+  }
+}
