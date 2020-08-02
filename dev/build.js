@@ -1,5 +1,7 @@
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
+
 const JSZip = require('jszip');
 const plist = require('plist');
 
@@ -33,6 +35,19 @@ function buildAction(dir) {
 					URL: AUTHOR_URL,
 				};
 				zip.folder(prettyFolderName).file(PLIST_NAME, plist.build(plistDist));
+				break;
+			}
+			case 'default.applescript':
+			case 'default.js': {
+				const builtFile = path.join(DIST_DIR, `${dir}_default.scpt`);
+				const lang = /.js$/.test(filename) ? 'JavaScript' : 'AppleScript';
+
+				execSync(`osacompile -l ${lang} -o ${builtFile} ${filepath}`);
+
+				const data = fs.readFileSync(builtFile);
+				zip.folder(prettyFolderName).file('default.scpt', data);
+
+				fs.unlinkSync(builtFile);
 				break;
 			}
 			default: {
