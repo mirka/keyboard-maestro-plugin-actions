@@ -49,6 +49,16 @@
 			<key>Default</key>
 			<string>Default</string>
 		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Slide</string>
+			<key>Type</key>
+			<string>PopupMenu</string>
+			<key>Menu</key>
+			<string>None|Up|Down|Left|Right</string>
+			<key>Default</key>
+			<string>None</string>
+		</dict>
 	</array>
 </dict>
 </plist>

@@ -40,11 +40,19 @@ const opacityValues = {
 	'Opaque': '255',
 };
 
+const slideValues = {
+	'None': 0,
+	'Up': 1,
+	'Down': 2,
+	'Left': 3,
+	'Right': 4,
+};
+
 BTTHud({
 	title: parseParam('Title'),
 	detail: parseParam('Detail'),
 	duration: parseParam('Duration'),
 	backgroundColor: parseParam('Background'),
 	opacity: opacityValues[parseParam('Opacity')],
-	slideDirection: parseParam('SlideDirection'),
+	slideDirection: slideValues[parseParam('Slide')],
 });
