@@ -6,6 +6,10 @@ Clean the contents of the clipboard using a [TextSoap](https://www.unmarked.com/
 
 _Requires TextSoap 8._
 
+## Download
+
+Download from the [latest release](https://github.com/mirka/keyboard-maestro-plugin-actions/releases/latest).
+
 ## How to use
 
 Put the full name of a TextSoap cleaner in the Cleaner field. [Text tokens](https://wiki.keyboardmaestro.com/Tokens) can also be used here.

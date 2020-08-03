@@ -8,6 +8,10 @@ Note that the “Clean Plain Text” version will _not_ retain any formatting in
 
 _Requires TextSoap 8._
 
+## Download
+
+Download from the [latest release](https://github.com/mirka/keyboard-maestro-plugin-actions/releases/latest).
+
 ## How to use
 
 Put the full name of a TextSoap cleaner in the Cleaner field.
