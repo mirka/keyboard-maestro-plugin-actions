@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Plugin Actions for Keyboard Maestro",
   "scripts": {
-    "build": "node ./dev/build.js"
+    "build": "./dev/build.sh",
+    "link": "./dev/link.sh",
+    "release": "npm run build && ./dev/release.sh",
+    "start": "onchange -i 'src/**/*' -- npm run build"
   },
   "repository": {
     "type": "git",
@@ -16,7 +19,7 @@
   },
   "homepage": "https://github.com/mirka/keyboard-maestro-plugin-actions#readme",
   "devDependencies": {
-    "jszip": "^3.5.0",
-    "plist": "^3.0.1"
+    "eslint": "^7.6.0",
+    "onchange": "^7.0.2"
   }
 }
