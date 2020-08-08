@@ -10,6 +10,7 @@ _Requires Keyboard Maestro 6+._
 - [Clean Plain Text with TextSoap](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/clean-plain-text-with-textsoap)
 - [Display BetterTouchTool HUD](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/display-bettertouchtool-hud)
 - [Post to Slack](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/post-to-slack)
+- [Set Slack Availability](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/set-slack-availability)
 - [Set Slack Status](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/set-slack-status)
 
 ## Download
