@@ -1,6 +1,6 @@
 # Set Slack Status
 
-!["Set Slack status" Plugin for Keyboard Maestro](https://raw.githubusercontent.com/mirka/keyboard-maestro-plugin-actions/master/assets/set-slack-status.png)
+<img src="https://raw.githubusercontent.com/mirka/keyboard-maestro-plugin-actions/master/assets/set-slack-status.png" alt="'Set Slack status' Plugin for Keyboard Maestro" width="500">
 
 Change your status emoji and status text on [Slack](https://slack.com/).
 
