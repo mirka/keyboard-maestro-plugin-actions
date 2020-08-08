@@ -22,7 +22,11 @@ Make sure you have an [Incoming Webhook integration](https://api.slack.com/incom
 
 ## Changelog
 
+### 2020/08/09
+
+- Update icon.
+
 ### 2015/03/24
 
--   Escape double quotes in Username/Message fields
--   Preserve line breaks in Message field
+- Escape double quotes in Username/Message fields.
+- Preserve line breaks in Message field.
