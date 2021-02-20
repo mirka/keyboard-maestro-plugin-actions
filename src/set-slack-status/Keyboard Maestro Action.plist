@@ -36,6 +36,12 @@
 			<key>Default</key>
 			<string>In a meeting</string>
 		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Clear after x hours</string>
+			<key>Type</key>
+			<string>Calculation</string>
+		</dict>
 	</array>
 </dict>
 </plist>
