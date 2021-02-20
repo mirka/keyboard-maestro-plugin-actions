@@ -18,6 +18,19 @@ if [[ ! -z "$KMPARAM_Status_text" || $both_empty -eq 0 ]]; then
   params+=("$text_param")
 fi
 
+# Calculate expiration unixtime (if set to more than 0)
+if [[ $(bc -l <<< "$KMPARAM_Clear_after_x_hours > 0") -eq 1 ]]; then
+  unix_now=$(date +%s)
+  offset=$(bc -l <<< "$KMPARAM_Clear_after_x_hours * 3600")
+  integer_offset=$(printf "%.0f" $offset)
+  expiry=$(($unix_now + $integer_offset))
+else
+  expiry=0
+fi
+
+expiration_param="\"status_expiration\": $expiry"
+params+=("$expiration_param")
+
 # Join params with ',' delimiter
 for p in "${params[@]}"; do
   if [[ ! -z "$concated_params" ]]; then

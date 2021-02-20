@@ -25,5 +25,6 @@ You will first need a Slack OAuth access token with the `users.profile:write` sc
 - **OAuth token**: Paste your OAuth token here.
 - **Status emoji**: An emoji identifier enclosed by colons, e.g. `:palm_tree:`. All the custom emoji for your workspace are also available.
 - **Status text**: Your status message.
+- **Clear after x hours**: Optional status expiration (in hours). This field supports [calculations](https://wiki.keyboardmaestro.com/manual/Calculations), so you can do things like `5*24` for your status to clear after 5 days, or `15/60` to clear after 15 minutes.
 
 The action will return the JSON response from the Slack server. If you save this to a variable, for example called `result`, you can easily parse this by using text tokens like `%JSONValue%result.profile%`.
