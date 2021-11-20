@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Pause Slack Notifications</string>
+	<key>Script</key>
+	<string>default.sh</string>
+	<key>Icon</key>
+	<string>icon.png</string>
+	<key>Title</key>
+	<string>%Param%Notifications% Slack Notifications</string>
+	<key>Results</key>
+	<string>None|Window|Briefly|Typing|Pasting|Variable|Clipboard</string>
+	<key>Parameters</key>
+	<array>
+		<dict>
+			<key>Label</key>
+			<string>OAuth token</string>
+			<key>Type</key>
+			<string>TokenString</string>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Notifications</string>
+			<key>Type</key>
+			<string>PopupMenu</string>
+			<key>Default</key>
+			<string>Pause</string>
+			<key>Menu</key>
+			<string>Pause|Resume</string>
+		</dict>
+		<dict>
+			<key>Label</key>
+			<string>Pause duration in minutes</string>
+			<key>Type</key>
+			<string>Calculation</string>
+			<key>Default</key>
+			<string>60</string>
+		</dict>
+	</array>
+</dict>
+</plist>

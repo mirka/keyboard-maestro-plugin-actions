@@ -6,12 +6,21 @@ _Requires Keyboard Maestro 6+._
 
 ## Actions
 
-- [Clean Clipboard with TextSoap](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/clean-clipboard-with-textsoap)
-- [Clean Plain Text with TextSoap](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/clean-plain-text-with-textsoap)
+### BetterTouchTool
+
 - [Display BetterTouchTool HUD](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/display-bettertouchtool-hud)
+
+### Slack
+
+- [Pause Slack Notifications](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/pause-slack-notifications)
 - [Post to Slack](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/post-to-slack)
 - [Set Slack Availability](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/set-slack-availability)
 - [Set Slack Status](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/set-slack-status)
+
+### TextSoap
+
+- [Clean Clipboard with TextSoap](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/clean-clipboard-with-textsoap)
+- [Clean Plain Text with TextSoap](https://github.com/mirka/keyboard-maestro-plugin-actions/tree/master/src/clean-plain-text-with-textsoap)
 
 ## Download
 
