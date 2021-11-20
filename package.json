@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/mirka/keyboard-maestro-plugin-actions#readme",
   "devDependencies": {
-    "eslint": "^7.6.0",
+    "eslint": "^8.2.0",
     "onchange": "^7.0.2"
   }
 }
