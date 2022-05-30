@@ -7,7 +7,8 @@ else
 fi
 
 function escape_for_json(){
-  echo -n "$1" | python -c 'import json,sys; print json.dumps(sys.stdin.read())'
+  py=$(command -v python3 || command -v python)
+  echo -n "$1" | $py -c 'import json,sys; print(json.dumps(sys.stdin.read()))'
 }
 
 USERNAME=$(escape_for_json "$KMPARAM_Username")

@@ -1,7 +1,8 @@
 #!/bin/bash
 
 function escape_for_json(){
-  echo -n "$1" | python -c 'import json,sys; print json.dumps(sys.stdin.read())'
+  py=$(command -v python3 || command -v python)
+  echo -n "$1" | $py -c 'import json,sys; print(json.dumps(sys.stdin.read()))'
 }
 
 emoji=$(escape_for_json "$KMPARAM_Status_emoji")
